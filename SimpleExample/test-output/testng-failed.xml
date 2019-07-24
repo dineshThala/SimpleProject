@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.example.qa.WebdriverManagerExample">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="setup"/>
+          <include name="SetUpTestData"/>
+          <include name="validateSearchbox7"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.qa.WebdriverManagerExample -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

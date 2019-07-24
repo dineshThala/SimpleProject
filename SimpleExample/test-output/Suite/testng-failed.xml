@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.example.qa.WebdriverManagerExample">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="setup"/>
+          <include name="SetUpTestData"/>
+          <include name="validateSearchbox7"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.qa.WebdriverManagerExample -->
+      <class name="com.example.qa.ExtentReportExample">
+        <methods>
+          <include name="b_validateSearchbox6"/>
+          <include name="a_validateSearchbox4"/>
+          <include name="SetUpTestData"/>
+          <include name="openBrowser"/>
+          <include name="c_validateSearchbox2"/>
+          <include name="setup"/>
+          <include name="ab_validateSearchbox5"/>
+          <include name="b_validateSearchbox1"/>
+          <include name="bc_validateSearchbox3"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.example.qa.ExtentReportExample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
