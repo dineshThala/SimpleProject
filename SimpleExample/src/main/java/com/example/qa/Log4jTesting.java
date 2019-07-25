@@ -1,6 +1,7 @@
 package com.example.qa;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -18,6 +19,7 @@ public class Log4jTesting {
 		driver = new ChromeDriver();
 		log.info("Open the url in browser");
 		driver.get("https://www.google.com/");
+		driver.findElement(By.name("q")).sendKeys("Automation Testing\n");
 
 	}
 }
