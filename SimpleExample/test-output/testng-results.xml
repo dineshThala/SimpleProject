@@ -2,32 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28082" started-at="2019-06-28T14:38:11Z" finished-at="2019-06-28T14:38:39Z">
+  <suite name="Default suite" duration-ms="9564" started-at="2019-07-25T14:36:48Z" finished-at="2019-07-25T14:36:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28082" started-at="2019-06-28T14:38:11Z" finished-at="2019-06-28T14:38:39Z">
-      <class name="com.example.qa.WebdriverManagerExample">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.example.qa.WebdriverManagerExample@146ba0ac]" name="setup" is-config="true" duration-ms="190" started-at="2019-06-28T14:38:11Z" finished-at="2019-06-28T14:38:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="SetUpTestData()[pri:0, instance:com.example.qa.WebdriverManagerExample@146ba0ac]" name="SetUpTestData" is-config="true" duration-ms="1" started-at="2019-06-28T14:38:11Z" depends-on-methods="com.util.qa.Utilities.setup" finished-at="2019-06-28T14:38:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUpTestData -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.example.qa.WebdriverManagerExample@146ba0ac]" name="openBrowser" is-config="true" duration-ms="6290" started-at="2019-06-28T14:38:11Z" finished-at="2019-06-28T14:38:18Z">
+    <test name="Default test" duration-ms="9564" started-at="2019-07-25T14:36:48Z" finished-at="2019-07-25T14:36:57Z">
+      <class name="com.example.qa.Log4jExample">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.example.qa.Log4jExample@369f73a2]" name="openBrowser" duration-ms="9542" started-at="2019-07-25T14:36:48Z" finished-at="2019-07-25T14:36:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="validateSearchbox7()[pri:0, instance:com.example.qa.WebdriverManagerExample@146ba0ac]" name="validateSearchbox7" duration-ms="21774" started-at="2019-06-28T14:38:18Z" finished-at="2019-06-28T14:38:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateSearchbox7 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.qa.WebdriverManagerExample@146ba0ac]" name="tearDown" is-config="true" duration-ms="2402" started-at="2019-06-28T14:38:39Z" finished-at="2019-06-28T14:38:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.example.qa.WebdriverManagerExample -->
+      </class> <!-- com.example.qa.Log4jExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
